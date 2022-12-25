@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "urlshortener"
+version = "0.1.0"
+description = ""
+authors = ["Alexander G.P.M. <73145510@continental.edu.pe>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+hashids = "^1.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
